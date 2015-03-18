@@ -25,7 +25,7 @@
         },
         "language": {
           "required": false,
-          "type": "integer"
+          "type": "string"
         },
         "health_status": {
           "required": false,

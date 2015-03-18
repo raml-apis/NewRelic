@@ -1,27 +1,27 @@
 {
   "application_host": {
-    "id": 1,
-    "application_name": "some string",
-    "host": "some string",
-    "language": 1,
-    "health_status": "some string",
-    "application_summaries": {
-      "response_time": 1.0,
-      "throughput": 1.0,
-      "error_rate": 1.0,
-      "apdex_score": 1.0
-    },
-    "end_user_summaries": {
-      "response_time": 1.0,
-      "throughput": 1.0,
-      "apdex_score": 1.0
+    "id": 4314443,
+    "application_name": "MyApp_03/18/2015_15:33:51",
+    "host": "comp",
+    "language": "java",
+    "health_status": "green",
+    "application_summary": {
+      "response_time": 0,
+      "throughput": 0,
+      "error_rate": 0,
+      "apdex_score": null,
+      "instance_count": 1
     },
     "links": {
-      "application": 1,
-      "application_instances": [
-        1
-      ],
-      "server": 1
+      "application": 6176121,
+      "application_instances": [6083168],
+      "server": 4970608
     }
+  },
+  "links": {
+    "application_host.application": "/v2/applications/{application_id}",
+    "application_host.application_instances": "/v2/application/{application_id}/instances?ids={instance_ids}",
+    "application_host.application_instance": "/v2/application/{application_id}/instances/{instance_id}",
+    "application_host.server": "/v2/servers/{server_id}"
   }
 }
