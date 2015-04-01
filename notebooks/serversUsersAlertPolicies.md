@@ -90,7 +90,7 @@ function determineIdToUpdate(defaultObj, objArray, objType, operationType ){
 
 ```javascript
 // Read about the NewRelic at https://anypoint.mulesoft.com/apiplatform/popular/admin/#/dashboard/apis/7718/versions/7852/contracts
-API.createClient('client', '/apiplatform/repository/public/organizations/30/apis/7718/versions/7852/definition');
+API.createClient('client', '#REF_TAG_DEFENITION');
 ```
 
 This API endpoint returns a paginated list of the Servers associated with your New Relic account.
